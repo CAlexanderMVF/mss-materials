@@ -1,2 +1,14 @@
 # Mathematical Sciences Society Lecture Material & Resources
-Miscellaneous materials for the Mathematical Sciences Society.
+
+This directory contains miscellaneous materials for the Mathematical Sciences
+Society.
+
+## Lectures
+
+- An Introduction to Mathematical Notation
+
+## Tutorials
+
+- An Introduction to $\LaTeX$ Commands
+
+---
