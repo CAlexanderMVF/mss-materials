@@ -1,0 +1,204 @@
+% Declares document class
+\documentclass{article}
+
+
+% Import packages, providing additional functionality
+\usepackage{graphicx}
+
+
+% American Mathematical Society, provide additional math tools
+\usepackage{amsfonts, amsmath, amssymb}
+
+
+% Declares document title
+\title{An Basic Introduction to \LaTeX}
+
+
+% Declare the document author/s
+\author{Christian Alexander}
+
+
+% Date field
+\date{February 2026}
+
+
+% Begin document class
+\begin{document}
+
+
+% `\maketitle` calls `\title`, `\author`, and `\date` commands defined above
+\maketitle
+
+
+% Abstract section to inform readers of what a given document is about
+\begin{abstract}
+	This document contains a basic introduction to \LaTeX, as well as some of the basic \LaTeX commands. This document is not comprehensive, but aims to make the reader familiar with \LaTeX within the shortest amount of time possible.
+\end{abstract}
+
+
+% Generates TOC and auto-updates from the defined section headings
+\tableofcontents
+
+
+% `\newpage` command creates a new page.
+\newpage
+
+
+% The `\section` command produces a section heading.
+\section{Introduction}
+
+
+% Inline equations are given by the double dollar sign delimiters, `$ ... $`. All mathematical content must be included inside these delimiters.
+This is an inline equation: $x = 4$. One can produce any number of inline equations, such as: $a = 4x^{2-1}$, and $b = 3y^2$.
+
+
+% The `\[ ... \]` delimiters produce the 'equation environment', and can be used to write all manner of mathematical content.
+\[
+	\int_{0}^{1} f(x) \circ g^{*}(x)
+\]
+
+
+% The `\text...` command is used to modify 'font features'. The basic options are:
+% - `\text`: normal/default; unlikely to be needed for the majority of written work.
+% - `\textbf`: bold font text; used for emphasis.
+% - `\textit`: italic text; used for emphasis.
+% - `textsf`: serif font: used for emphasis.
+% - `texttt`: teletype/typewriter/monospace font; used for emphasis, but also useful for code.
+% - `textrm`: roman/upright/latin font; an alternative to the default Computer Modern font.
+This is some 'normal' text. \textbf{This is some 'Bold' Text}. \textit{This is some 'Italic' text}. \textsf{This is some 'Serif' text}. \texttt{This is some 'teletype' text}. \textrm{This is some 'Roman' text}.
+
+
+% Integral
+\[
+	\int_{0}^{1} f(x) = x^2
+\]
+
+
+% A basic fractions
+\[
+	\frac{1}{4} + \frac{2}{7}
+\]
+
+
+% Nested fractions
+\[
+	\frac{1 \frac{1}{ 3^3 1 \frac{1}{ 3^3 1 \frac{1}{3^3} } } }{ 2 \frac{3^4}{4} }
+\]
+
+
+% `\frac` for differentiation
+\[
+	\frac{d}{dx} = x^2
+\]
+
+% `\frac` for partial differentials
+\[
+	\frac{\partial}{\partial x}
+\]
+
+
+% Summation operator
+\[
+	\sum_{i=1}^{5} i^2 = 18
+\]
+
+
+% Below is some sample text. For illustration purposes.
+% NOTE: One method of obtaining a line break/new line is with the double backslash `\\`.
+This is some text. This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.\\
+
+
+% Paragraph environment
+\paragraph{This is some text. This is some text. This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.}
+
+
+% Section heading
+\section{This is a section heading}
+
+
+% Subsection heading
+\subsection{This is a subsection}
+
+
+% Subsubsection
+\subsubsection{This is a sub subsection}
+
+
+\newpage
+\section{Environments}
+
+% There are several `\begin` environments, with some of the more common ones denoted here.
+There are several `environments' which can be declared.
+
+
+\subsection{The `Centre' Environment}
+
+% The `\begin{centre}` environment: used to center objects.
+\begin{center}
+	This is some centred text. \\
+	\textbf{Bold centred text} \\
+	\textit{Italic centred text}
+\end{center}
+
+
+\subsection{Enumerate Environment}
+
+% Enumerate environment: used to denote enumerated/numbered lists.
+\begin{enumerate}
+	\item Item 1
+	\item Item 2
+	\item $\vdots$
+	\item Item n
+\end{enumerate}
+
+\subsection{Itemize Environment}
+
+% Itemize environment: used to denote unordered lists.
+\begin{itemize}
+	\item Unordered
+	\item Unorderd
+	\item $\vdots$
+	\item Unordered n
+\end{itemize}
+
+
+\section{AMS Packages}
+
+% The `ams` packages (SEE `\usepackage` at the top of the document)
+In functional analysis, we care about square-integrable functions of the form:
+\[
+	\int_{0}^{1} \mid f(x) \mid^{2}, \quad f(x) \in \mathbb{R} \text{ or } \mathbb{C}
+\]
+
+
+The spectrum of an operator can be expressed in terms of matrices:
+
+% Parenthetic Matrix, using 'curved' brackets `( ... )`, or parenthesis.
+\[
+	\begin{pmatrix}
+		1 & 2 \\
+		3 & 4
+	\end{pmatrix}
+\]
+
+
+% Bracketed Matrix, using `[ ... ]`, using square brackets.
+\[
+	\begin{bmatrix}
+		3 & 4 \\
+		5 & 6
+	\end{bmatrix}
+\]
+
+
+% Arithmetic operators are 'mostly' intuitive, with the exception of the `\times` command, and the `\div` command.
+\[
+	1 + 1 = 2, \quad 1 * 1 = 1
+\]
+
+\[
+	5 + 5 = 10, \quad 125 \div 49, \quad 5 \times 5 = 25, \quad 2 - 1 = 1
+\]
+
+
+\end{document}
