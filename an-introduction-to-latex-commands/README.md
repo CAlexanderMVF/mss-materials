@@ -7,8 +7,13 @@ second-half of the Week 1 Mathematical Science Society lectures. This tutorial d
 
 To use this file, one has a choice of two things:
 
-1. Use a $\LaTeX$ compiler and one's text editor of choice to edit and compile the `.tex` file to a `.PDF`.
-2. Compress the `intro-to-latex.tex` file to a `.zip` extension, and upload the
+### $\LaTeX$ compiler and text editor
+
+- Use a $\LaTeX$ compiler and one's text editor of choice to edit and compile the `.tex` file to a `.PDF`.
+
+### Overleaf
+
+- Compress the `intro-to-latex.tex` file to a `.zip` extension, and upload the
    `intro-to-latex.zip` file to Overleaf where one can compile/edit it using the
 Overleaf platform and obtain the `.tex` file in `.PDF` format.
 
