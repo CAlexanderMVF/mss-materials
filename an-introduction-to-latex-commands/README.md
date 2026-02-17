@@ -1,7 +1,7 @@
 # An Introduction to $\LaTeX$ Commands
 
 This directory contains a basic (`intro-to-latex.tex`) file created during the
-second-half of the week 1 of the Mathematical Science Society lectures. This tutorial demonstrated basic $\LaTeX$ for those who are unfamiliar with the program.
+second-half of the Week 1 Mathematical Science Society lectures. This tutorial demonstrated basic $\LaTeX$ for those who are unfamiliar with the program.
 
 ## Using this file
 
