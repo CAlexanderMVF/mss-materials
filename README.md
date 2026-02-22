@@ -5,10 +5,10 @@ Society.
 
 ## Lectures
 
-- An Introduction to Mathematical Notation
+- [X] An Introduction to Mathematical Notation
 
 ## Tutorials
 
-- An Introduction to $\LaTeX$ Commands
+- [X] An Introduction to $\LaTeX$ Commands
 
 ---
