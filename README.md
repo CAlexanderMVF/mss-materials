@@ -6,6 +6,7 @@ Society.
 ## Lectures
 
 - [X] An Introduction to Mathematical Notation
+- [X] An Introduction to Linear Algebra 
 
 ## Tutorials
 
